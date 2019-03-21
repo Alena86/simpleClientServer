@@ -119,4 +119,4 @@ class dlg(object):
             self.output.insert(END, "Connection refused, invalid host or port.\n \tHOST: {}, PORT {}.\n".format(self.cObj.host, self.cObj.port))
 
 if __name__ == "__main__":
-    main(sys.argv))
+    main(sys.argv)
